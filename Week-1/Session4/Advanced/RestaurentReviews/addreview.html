@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <style>
+        label {
+            float: left;
+            width: 100px;
+            text-align: left;
+        }
+        .nav {
+            display: inline;
+            padding-right: 10px;           
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+    </header>
+    <nav class="nav">
+        <p class="nav"><a href="./index.html"><u>Home</u></a></p>
+        <p class="nav"><a href="./addreview.html"><u>Add Review </u></a></p>
+        <p class="nav"><a href="./about.html"><u>About</u></a></p>
+    </nav>
+    
+        <h2>Add Review</h2>
+        <div>
+        <form action="./index.html" >
+            <p>
+                <label for="name">Name?</label>
+                <input type="text" name="name" id="name">
+            </p>
+            <p>
+                <label for="restaurant">Restaurant?</label>
+                <select name="restaurant" id="restaurant">
+                    <option value="Edo - ITC Gardenia">Edo - ITC Gardenia</option>
+                    <option value="Karavali Garden">Karavali Garden</option>
+                </select>
+            </p>
+            <p>
+                <label for="date">Date of Visit?</label>
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                <label for="rating">Rating?</label>
+                <input type="number" name="rating" id="rating"  value="5" min="1" max="5">
+            </p>
+            <p>
+                <label for="details">Details?</label>
+                <textarea name="details" id="details" cols="50" rows="3"></textarea>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>       
+        </form>
+    </div>
+    <footer>
+        <p>	&#169; 2023 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>
