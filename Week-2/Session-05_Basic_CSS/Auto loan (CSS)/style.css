@@ -1,0 +1,68 @@
+/* Your code goes here */
+
+body {
+    font-family:'Roboto', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+}
+
+.container {
+    text-align: center;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.offer {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    margin: 4px;
+    border: solid 1px #cccccc;
+}
+
+.offerTitle {
+    color: #ffffff;
+    font: bold;
+    font-size: 14px;
+    background-color: #00b3b3;
+    padding: 15px;
+}
+
+.offerContents {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    border-bottom: #f1f1f1 solid 1px;
+    
+}
+
+th {
+    color:  #777777;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: #f1f1f1 solid 1px;
+    
+}
+
+td {
+    color: #444444;
+    font-weight: lighter;
+    padding: 20px 10px;  
+    border-bottom: #f1f1f1 solid 1px;  
+}
+
+.finalValue {
+    color: #2222ff;
+    font-weight: bold;
+
+}

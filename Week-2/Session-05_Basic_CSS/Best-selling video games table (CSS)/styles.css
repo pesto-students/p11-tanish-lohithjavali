@@ -1,0 +1,36 @@
+:root {
+   --table-color: forestgreen;
+   --row-bg-color: honeydew;
+   font-family: Calibri, Myriad;
+}
+   
+/* Your solution goes here */
+
+table {
+   font-family: Calibri, Myriad;
+   text-align: center;
+   border: solid 2px forestgreen;
+   height: 200px;
+   width: 400px;
+}
+
+th {
+   font-weight: bold;
+   padding: 10px;
+}
+
+td {
+   padding: 10px;
+}
+
+caption {
+   background-color: var(--table-color);
+   padding: 10px;
+   color: white;
+   text-transform: uppercase;
+   
+}
+
+tr:nth-child(even) {
+   background-color: var(--row-bg-color);
+}
